@@ -1,0 +1,38 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer1                                                                        0x0200       8
+Dur                                                                               0x0208       2
+gundulPacul                                                                       0x020A     124
+Twinkle                                                                           0x0286      98
+ibuKitakartini                                                                    0x02E8     120
+babyShark                                                                         0x0360      96
+index                                                                             0x03C0       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+flag                                                                              R5           1
+nada                                                                              R4           1
+flagSerial                                                                        R7           1
+count                                                                             R8,R9        2
+i                                                                                 R10,R11      2
+rx_wr_index1                                                                      R6           1
+rx_rd_index1                                                                      R13          1
+rx_counter1                                                                       R12          1
+rx_buffer_overflow1                                                               R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart1_rx_isr                                                                     0x00164     44
+putchar1                                                                          0x00190      6
+delay_tone                                                                        0x00196     84
+toneGenerator                                                                     0x001EA     11
+musicGenerator                                                                    0x001F5     27
+musicPlayer                                                                       0x00210     48
+main                                                                              0x00240    108
